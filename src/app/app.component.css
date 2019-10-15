@@ -4,7 +4,7 @@ main{
  text-align: center;
 }
 
-mat-card{
+mat-card, app-photos{
     margin: auto;
     width: 35%;
     display: block;

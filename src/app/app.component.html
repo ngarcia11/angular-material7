@@ -12,7 +12,7 @@
 
     <mat-form-field>
        <mat-select placeholder="Album Id" #albumId>
-         <mat-option *ngFor="let id of albumId" value="id">
+         <mat-option *ngFor="let id of albumsId" value="id">
           {{id}}
          </mat-option>
        </mat-select>
@@ -26,5 +26,7 @@
       </button>
   </form>
  </mat-card>
+
+ <app-photos></app-photos>
 </main>
  
